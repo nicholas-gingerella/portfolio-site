@@ -19,5 +19,6 @@ When you want to tell people about that sweet program you wrote about, it really
 in an easily accessible way...you know...like a website!
 
 Lets face it, not everyone wants to go through the process of downloading
-and compiling your source code just to see your work, but have a snazzy webpage complete with screenshots and gifs may convince them
-to give it a shot!
+and compiling your source code just to see your work, but have a snazzy webpage complete with screenshots and gifs may convince them to give it a shot!
+
+I mean...a good GitHub Readme probably works too I guess...
