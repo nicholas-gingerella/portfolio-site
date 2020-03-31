@@ -3,6 +3,7 @@ body {
     padding: 0;
     /* font-family: 'Sarabun', sans-serif; */
     font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
 }
 
 #introduction {
@@ -31,6 +32,33 @@ body {
 
 #intro_slogan {
     line-height: 1;
+    font-family: 'Sarabun', sans-serif;
+    margin-top: 100px;
+}
+
+#my_mission {
+    margin-top: 200px;
+}
+
+.section_heading {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.card_heading {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card_image {
+    border-radius: 5px;
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
 }
 
 .font-size-120 {
