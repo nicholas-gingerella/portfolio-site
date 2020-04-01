@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+section {
+    margin-bottom:200px;
+}
+
+#introduction {
+    background-image: url("../img/banner_photo_1900.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px; /*to fully display background image*/
+    padding-top: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+#main_greeting {
+    font-family: 'Sarabun', sans-serif;
+    line-height: 1;
+}
+
+#big_hello {
+    margin: -5px; /*to align with greeting below*/
+}
+
+#big_ideas{
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+#intro_slogan {
+    line-height: 1;
+    font-family: 'Sarabun', sans-serif;
+    margin-top: 100px;
+}
+
+#my_mission {
+}
+
+#my_skills {
+
+}
+
+.sub_heading {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+}
+
+#my_skills .sub_heading {
+    margin-bottom: 0px
+}
+
+.section_heading {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.card_heading {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card_image {
+    border-radius: 5px;
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.font-size-120 {
+    font-size: 120px;
+}
+
+.font-size-80 {
+    font-size: 80px;
+}
+
+.font-size-60 {
+    font-size: 60px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
