@@ -6,8 +6,12 @@ body {
     font-size: 1rem;
 }
 
+section {
+    margin-bottom:200px;
+}
+
 #introduction {
-    background-image: url("../img/banner_photo.jpg");
+    background-image: url("../img/banner_photo_1900.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 900px; /*to fully display background image*/
@@ -37,7 +41,19 @@ body {
 }
 
 #my_mission {
-    margin-top: 200px;
+}
+
+#my_skills {
+
+}
+
+.sub_heading {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+}
+
+#my_skills .sub_heading {
+    margin-bottom: 0px
 }
 
 .section_heading {
