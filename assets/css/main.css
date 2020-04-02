@@ -6,11 +6,17 @@ body {
     font-size: 1rem;
 }
 
-section {
+section.main_section {
     margin-bottom:200px;
 }
 
-#introduction {
+section.sub_section {
+    margin-top:40px;
+}
+
+
+
+#introduction_section {
     background-image: url("../img/banner_photo_1900.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -29,22 +35,26 @@ section {
     margin: -5px; /*to align with greeting below*/
 }
 
-#big_ideas{
-    font-family: 'Sarabun', sans-serif;
-
-}
-
 #intro_slogan {
     line-height: 1;
+    margin-top: 200px;
+}
+
+#mission_section {
+}
+
+#skills_section {
+
+}
+
+
+
+#skills_section .sub_heading {
+    margin-bottom: 0px
+}
+
+.header_font {
     font-family: 'Sarabun', sans-serif;
-    margin-top: 100px;
-}
-
-#my_mission {
-}
-
-#my_skills {
-
 }
 
 .sub_heading {
@@ -52,15 +62,15 @@ section {
     font-weight: bold;
 }
 
-#my_skills .sub_heading {
-    margin-bottom: 0px
-}
-
 .section_heading {
     font-family: 'Sarabun', sans-serif;
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 1rem;
+}
+
+.card_row {
+    margin-top: 16px;
 }
 
 .card_heading {
@@ -81,6 +91,10 @@ section {
     font-size: 120px;
 }
 
+.font-size-100 {
+    font-size: 100px;
+}
+
 .font-size-80 {
     font-size: 80px;
 }
@@ -91,6 +105,10 @@ section {
 
 .font-size-30 {
     font-size: 30px;
+}
+
+.font-size-24 {
+    font-size: 24px;
 }
 
 .font-size-20 {

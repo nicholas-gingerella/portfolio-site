@@ -11,27 +11,28 @@
   <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.4.1/css/bootstrap.min.css">
 
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Sarabun:400,400i,700,700i&display=swap" rel="stylesheet">   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Sarabun:400,400i,700,700i&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <title>Nicholas Gingerella - Software Engineer</title>
 </head>
 
 <body>
-  <section id="introduction">
+  <section id="introduction_section" class="main_section">
     <div class="container">
-      <div class="row">
+      <div class="row header_font">
         <div class="col-6">
           <p id="main_greeting" class="font-weight-bold ">
             <span id="big_hello" class="font-size-120">Hello!</span>
             <br>
             I'm Nicholas Gingerella
           </p>
-
-          <p class="font-size-20">I’m an engineer with a passion for creating quality software and working with people who push the boundaries of what is possible</p>
-
-          <p id="intro_slogan" class="font-size-60">
+          <p class="font-size-24">A software engineer with a passion for building great products and bringing order to
+            chaotic code</p>
+          <p id="intro_slogan" class="header_font font-size-60">
             Let's make
             <br>
-            <span id="big_ideas" class="font-weight-bold font-size-80 text-uppercase">Big Ideas</span>
+            <span class="header_font font-weight-bold font-size-100 text-uppercase">Big Ideas</span>
             <br>
             a reality
           </p>
@@ -40,104 +41,228 @@
     </div>
   </section>
 
-  <section id="my_mission">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="section_heading">My Mission</h1>
-          <p>To reduce the clutter and complexity behind big systems, I focus on creating logical abstractions built on a foundation of clean, readable code for us mere mortals to understand. Using clean code and solid engineering processes, my goal is to bring these benefits to the projects I work on:</p>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-4">
-          <div class="my_card">
-            <div class="card_image"></div>
-          <p class="card_heading font-size-20">Maintainability</p>
-          <p>
-            Maintainable software reduces time spent working through needlessly complex logic.
-          </p> 
+  <div class="container">
+    <section id="mission_section" class="main_section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="section_heading">My Mission</h1>
+            <p>To reduce the clutter and complexity behind big systems, I focus on creating logical abstractions built
+              on
+              a foundation of clean, readable code for us mere mortals to understand. Using clean code and solid
+              engineering processes, my goal is to bring these benefits to the projects I work on:</p>
           </div>
-         
         </div>
-        <div class="col-4">
-          <div class="card_image"></div>
-          <p class="card_heading  font-size-20">Adaptibility</p>
-          <p>
-            Clean code creates software that is faster to change in order to address the shifting needs of the customer          </p>
-        </div>
-        <div class="col-4">
-          <div class="card_image"></div>
-          <p class="card_heading font-size-20">Reliability</p>
-          <p>
-            Well Maintained software is easier to test, easier to fix, and harder to break.          </p>
+        <div class="row card_row">
+          <div class="col-4">
+            <div class="my_card">
+              <div class="card_image"></div>
+              <p class="card_heading font-size-20">Maintainability</p>
+              <p>
+                Maintainable software reduces time spent working through needlessly complex logic.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card_image"></div>
+            <p class="card_heading  font-size-20">Adaptibility</p>
+            <p>
+              Clean code creates software that is faster to change in order to address the shifting needs of the
+              customer
+            </p>
+          </div>
+          <div class="col-4">
+            <div class="card_image"></div>
+            <p class="card_heading font-size-20">Reliability</p>
+            <p>
+              Well Maintained software is easier to test, easier to fix, and harder to break. </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="my_skills">
-    <div class="container">
+    <section id="skills_section" class="main_section">
       <div class="row">
         <div class="col">
           <h1 class="section_heading">Skills</h1>
-          <p>I’m always on the hunt for new skills for my problem solving toolbox. I employ whatever languages and tools needed in order to get the job done. Here are some of my current skills. </p>
+          <p>I’m always on the hunt for new skills for my problem solving toolbox. I employ whatever languages and tools
+            needed in order to get the job done. Here are some of my current skills. </p>
         </div>
       </div>
+      <section class="sub_section">
+        <div class="row">
+          <div class="col">
+            <p class="sub_heading font-size-30">Software Development</p>
+            <p>My current languages and tools I use for code construction and software design</p>
+          </div>
+        </div>
+        <div class="row card_row">
+          <div class="col-4">
+            <div class="my_card">
+              <div class="card_image"></div>
+              <p class="card_heading font-size-20">C and C++</p>
+              <p>
+                My languages of choice for most of my programming needs. Both powerful, but dangerous, these two allow
+                me the flexibility to squeeze the most performance out of code on both computers and embedded devices
+                alike.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card_image"></div>
+            <p class="card_heading  font-size-20">Python</p>
+            <p>
+              For quick prototypes or tooling, Python is my go to. Simple to use, but powerful due to its many
+              libraries. Python has been growing on me, and I’m excited to dive deeper into the language and its ever
+              growing applications.
+            </p>
+          </div>
+          <div class="col-4">
+            <div class="card_image"></div>
+            <p class="card_heading font-size-20">HTML, CSS, and Javascript</p>
+            <p>The staples of web development, I use these for my more creative projects. I’ve personally done most of
+              my work using the Bootsrap CSS framework and JQuery for many of my javascript applications.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sub_section">
+        <div class="row">
+          <div class="col">
+            <p class="sub_heading font-size-30">Software Engineering</p>
+            <p>Engineering practices I use when planning, and executing team software development efforts</p>
+          </div>
+        </div>
+        <div class="row card_row">
+          <div class="col-4">
+            <div class="my_card">
+              <div class="card_image"></div>
+              <p class="card_heading font-size-20">Agile Methodologies</p>
+              <p>I work on teams that use the SCRUM. Our focus is the rapid development of prototypes, and getting our
+                software in front of the customer for the feedback necessary to pivot our product to fit their needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card_image"></div>
+            <p class="card_heading  font-size-20">Engineering Process</p>
+            <p>A solid engineering process allows my team to improve and maintain a quality software product. Using well
+              developed engineering processes, we help reduce defects and regression in mission critical software, and
+              produce artifacts for design and test processes.</p>
+          </div>
+          <div class="col-4">
+            <div class="card_image"></div>
+            <p class="card_heading font-size-20">Team Building & Collaboration</p>
+            <p>Fostering a healthy team culture is important for driving innovation and performance. Teams where members
+              feel comfortable and respect eachother leads to open collaboration where everyone is able to improve and
+              contribute to a shared goal. </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="experience_section" class="main_section">
       <div class="row">
         <div class="col">
-          <p class="sub_heading font-size-30">Software Development</p>
-          <p>My current languages and tools I use for code construction and software design</p>
+          <h1 class="section_heading">Experience</h1>
+          <p> My journey to becoming a software engineer is still underway, honing my craft and always improving. Allow
+            me to share with you some of my travels.</p>
         </div>
       </div>
-      <div class="row mt-2 mb-4">
-        <div class="col-4">
-          <div class="my_card">
-            <div class="card_image"></div>
-          <p class="card_heading font-size-20">C and C++</p>
-          <p>
-            My languages of choice for most of my programming needs. Both powerful, but dangerous, these two allow me the flexibility to squeeze the most performance out of code on both computers and embedded devices alike.          </p> 
+      <section class="sub_section">
+        <div class="row">
+          <div class="col-6">
+            <!-- image goes here -->
           </div>
-        </div>
-        <div class="col-4">
-          <div class="card_image"></div>
-          <p class="card_heading  font-size-20">Python</p>
-          <p>
-            For quick prototypes or tooling, Python is my go to. Simple to use, but powerful due to its many libraries. Python has been growing on me, and I’m excited to dive deeper into the language and its ever growing applications.        </div>
-        <div class="col-4">
-          <div class="card_image"></div>
-          <p class="card_heading font-size-20">HTML, CSS, and Javascript</p>
-          <p>The staples of web development, I use these for  my more creative projects. I’ve personally done most of my work using the Bootsrap CSS framework and JQuery for many of my javascript applications.</p>
-        </div>
-      </div>
+          <div class="col-6">
+            <!-- text goes here -->
+            <h2 class="header_font font-weight-bold">Northrop Grumman</h2>
+            <p>
+              Software Engineer
+              <br>
+              October 2015 - Present
+            </p>
+            <p>
+              I’ve been creating and maintaining software for communication systems used in both commercial and
+              government sectors.
 
-      <div class="row mt-4">
-        <div class="col">
-          <p class="sub_heading font-size-30">Software Engineering</p>
-          <p>Engineering practices I use when planning, and executing team software development efforts</p>
-        </div>
-      </div>
-      <div class="row mt-2">
-        <div class="col-4">
-          <div class="my_card">
-            <div class="card_image"></div>
-          <p class="card_heading font-size-20">Agile Methodologies</p>
-          <p>I work on teams  that use the  SCRUM. Our focus is the rapid development of prototypes, and getting our software in front of the customer for the feedback necessary to pivot our product to fit their needs.</p> 
+              The projects I’ve worked on vary, from simple command line tools for Linux networking configurations, to
+              graphical user interfaces for complex communications systems used government agencies.
+
+              My more recent duties include:
+              - Requirements development
+              - Interface design
+              - Software design and implementation
+
+              I also help improve the software development processes of my team in need by introducing and incorporating
+              crucial development tools such as version control and continuous integration and test suites.
+            </p>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card_image"></div>
-          <p class="card_heading  font-size-20">Engineering Process</p>
-          <p>A solid engineering process allows my team to improve and maintain a quality software product. Using well developed engineering processes, we help reduce defects and regression in mission critical software, and produce artifacts for design and test processes.</p>        
+      </section>
+      <section class="sub_section">
+        <div class="row">
+          <div class="col-6">
+            <!-- text goes here -->
+            <h2 class="header_font font-weight-bold">University of California Riverside</h2>
+            <p>
+              Python Programming Teaching Assistant
+              <br>
+              February 2014 - May 2014
+            </p>
+            <p>
+              During my time as a student at the University of California Riverside, I took on a position as an
+              assistant instructor for Python programming class for 9th grade students at a local middle school
+              sponsored by the university.
+
+              My primary role was to teach the class the fundamentals for programming using Python through a series of
+              classes held throughout the quarter.
+
+              Communicating technical concepts to children who had never programmed was quite the challenge, and I
+              learned a lot about communication and fostering a comfortable learning environment for these newcomers.
+
+              But even with all the hurdles faced, that class performed beautifully, and by the end of the quarter, they
+              were all armed with a new tool at their disposal and a new found appreciation for the applications they
+              use every day.
+            </p>
           </div>
-        <div class="col-4">
-          <div class="card_image"></div>
-          <p class="card_heading font-size-20">Team Building & Collaboration</p>
-          <p>Fostering a healthy team culture is important for driving innovation and performance. Teams where members feel comfortable and respect eachother leads to open collaboration where everyone is able to improve and contribute to a shared goal. </p>
+          <div class="col-6">
+            <!-- image goes here -->
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  
+      </section>
+      <section class="sub_section">
+        <div class="row">
+          <div class="col-6">
+            <!-- image goes here -->
+          </div>
+          <div class="col-6">
+            <!-- text goes here -->
+            <h2 class="header_font font-weight-bold">Omniplatform</h2>
+            <p>
+              Full-Stack Developer
+              <br>
+              September 2012 - December 2013
+            </p>
+            <p>
+              The first job I took on during my days in community college was with a small local startup that was run by
+              one of my professors past students. It was here I got my first taste of working in a team and delivering a
+              tangible product.
+
+              I helped create content management systems using a LAMP stack for server side processing (Linux, Apache,
+              MySQL, and PHP) and HTML, CSS, and Javascript/JQuery for frontend development. Our customers ranged from
+              small local businesses to large corporations such as Phillips Healthcare.
+
+              Aside from cutting my teeth on some real world projects and improving my development skills, it’s here
+              that I learned to ask questions and get feedback that would help me improve craft.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+
+
   <script src="assets/jquery-3.4.1/jquery-3.4.1.min.js"></script>
   <script src="assets/popper-1.16.0/popper.min.js"></script>
   <script src="assets/bootstrap-4.4.1/js/bootstrap.min.js"></script>
