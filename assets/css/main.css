@@ -37,7 +37,7 @@ section.sub_section {
 
 #intro_slogan {
     line-height: 1;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #mission_section {
@@ -47,10 +47,16 @@ section.sub_section {
 
 }
 
+#experience_section {
 
+}
 
 #skills_section .sub_heading {
     margin-bottom: 0px
+}
+
+#experience_section .employer_logo {
+    max-width: 80%;
 }
 
 .header_font {
