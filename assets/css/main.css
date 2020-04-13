@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
-    font-size: 1em;
+    font-size: 1rem;
+    color: #333;
 }
 
 section.main_section {
-    margin-bottom:200px;
+    margin-bottom:300px;
 }
 
 section.sub_section {
@@ -24,13 +25,14 @@ p {
     background-repeat: no-repeat;
     height: 900px; /*to fully display background image*/
     padding-top: 60px;
-    color: white;
+    color: #eee;
     font-size: 40px;
 }
 
 #main_greeting {
     font-family: 'Sarabun', sans-serif;
     line-height: 1;
+    margin-bottom: 0.5rem;
 }
 
 #big_hello {
@@ -54,24 +56,61 @@ p {
 
 }
 
+#contact_section {
+    margin-bottom: 200px;
+}
+
 #skills_section .sub_heading {
     margin-bottom: 0px
 }
 
 #experience_section .employer_logo {
-    max-width: 80%;
+    max-width: 90%;
 }
 
 #contact_section p {
     max-width: 100%;
 }
+
 .header_font {
     font-family: 'Sarabun', sans-serif;
+}
+
+.job_tasks {
+margin: 1em 0;
+background-color: grey;
+padding: 1em;
+}
+
+.job_tasks ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.job_tasks ul li {
+    margin-top: 0.5em;
+}
+
+.job_tasks p {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.heading_accent {
+    margin-left: 2px;
+    margin-bottom: -5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 3px;
 }
 
 .sub_heading {
     font-family: 'Sarabun', sans-serif;
     font-weight: bold;
+    font-size: 1.625rem;
 }
 
 .section_heading {
@@ -88,15 +127,29 @@ p {
 .card_heading {
     font-family: 'Sarabun', sans-serif;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .card_image {
     border-radius: 5px;
     background-color: grey;
     width: 40px;
-    height: 40px;
+    height: 50px;
     margin-bottom: 0.5rem;
+}
+
+.card_icon {
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    height: 50px;
+}
+/* manually color black svg images (C++ logo) */
+.filter-333 {
+    filter: invert(14%) sepia(10%) saturate(46%) hue-rotate(314deg) brightness(94%) contrast(83%);
+}
+
+.font_slab {
+    font-family: 'Roboto Slab', serif;
 }
 
 .font-size-120 {
