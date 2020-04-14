@@ -25,7 +25,7 @@ p {
     background-repeat: no-repeat;
     height: 900px; /*to fully display background image*/
     padding-top: 60px;
-    color: #eee;
+    color: #f0f4f6 !important;
     font-size: 40px;
 }
 
@@ -42,6 +42,7 @@ p {
 #intro_slogan {
     line-height: 1;
     margin-top: 100px;
+    font-family: 'Sarabun', sans-serif;
 }
 
 #mission_section {
@@ -78,12 +79,13 @@ p {
 
 .job_tasks {
 margin: 1em 0;
-background-color: grey;
-padding: 1em;
+padding: 14px 16px 16px 16px;
+border: 1px solid #d6d6d6;
+background-color: #ebebeb
 }
 
 .job_tasks ul {
-    padding-left: 20px;
+    padding-left: 16px;
     margin: 0;
 }
 
@@ -103,8 +105,9 @@ padding: 1em;
     margin-bottom: -5px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Sarabun', sans-serif;
-    letter-spacing: 3px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+    color: #5c5c5c;
 }
 
 .sub_heading {
@@ -120,14 +123,25 @@ padding: 1em;
     margin-bottom: 1rem;
 }
 
+.heading_accent
+
 .card_row {
     margin-top: 16px;
+}
+
+.light_text {
+    color: #5c5c5c;
+}
+
+.light_text_intro {
+    color: #c4d2db;
 }
 
 .card_heading {
     font-family: 'Sarabun', sans-serif;
     font-weight: bold;
     margin-bottom: 0;
+    color: #333 !important;
 }
 
 .card_image {
@@ -143,6 +157,7 @@ padding: 1em;
     margin-bottom: 0.5rem;
     height: 50px;
 }
+
 /* manually color black svg images (C++ logo) */
 .filter-333 {
     filter: invert(14%) sepia(10%) saturate(46%) hue-rotate(314deg) brightness(94%) contrast(83%);
