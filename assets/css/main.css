@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
-    color: #333;
+    color: #29363d;
 }
 
 section.main_section {
@@ -77,20 +77,32 @@ p {
     font-family: 'Sarabun', sans-serif;
 }
 
+.header_color {
+    color: #265873;
+}
+
 .job_tasks {
 margin: 1em 0;
 padding: 14px 16px 16px 16px;
-border: 1px solid #d6d6d6;
-background-color: #ebebeb
+border: 1px solid #c5cbce;
+background-color: #dfe8ec5c;
 }
 
 .job_tasks ul {
+    list-style: none;
     padding-left: 16px;
     margin: 0;
 }
 
 .job_tasks ul li {
     margin-top: 0.5em;
+    text-indent: -0.8em;
+}
+
+.job_tasks ul li:before {
+    content: "•";
+    color: #2978a3;
+    padding-right:7px;
 }
 
 .job_tasks p {
@@ -107,7 +119,7 @@ background-color: #ebebeb
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 2px;
-    color: #5c5c5c;
+    color: #7aa2b8;
 }
 
 .sub_heading {
@@ -121,16 +133,15 @@ background-color: #ebebeb
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 1rem;
+    color: #2e566b;
 }
-
-.heading_accent
 
 .card_row {
     margin-top: 16px;
 }
 
 .light_text {
-    color: #5c5c5c;
+    color: #526b7a;
 }
 
 .light_text_intro {
@@ -156,11 +167,22 @@ background-color: #ebebeb
     border-radius: 5px;
     margin-bottom: 0.5rem;
     height: 50px;
+    color: #2978a3;
+}
+
+.icon_color {
+    color: #2978a3;
+}
+
+#contact_submit_btn {
+    color: #fff;
+    background-color: #2978a3;
+    border-color: #2978a3;
 }
 
 /* manually color black svg images (C++ logo) */
-.filter-333 {
-    filter: invert(14%) sepia(10%) saturate(46%) hue-rotate(314deg) brightness(94%) contrast(83%);
+.filter-icon-color {
+    filter: invert(42%) sepia(20%) saturate(1660%) hue-rotate(157deg) brightness(92%) contrast(86%);
 }
 
 .font_slab {
