@@ -58,7 +58,13 @@ p {
 }
 
 #contact_section {
-    margin-bottom: 200px;
+    margin-bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f3f7f8;
+}
+#contact_section .section_heading {
+    color: #2d74b3;
 }
 
 #skills_section .sub_heading {
@@ -78,14 +84,14 @@ p {
 }
 
 .header_color {
-    color: #265873;
+    color: #266080;
 }
 
 .job_tasks {
 margin: 1em 0;
 padding: 14px 16px 16px 16px;
 border: 1px solid #c5cbce;
-background-color: #dfe8ec5c;
+background-color: #f3f7f8;
 }
 
 .job_tasks ul {
@@ -101,7 +107,7 @@ background-color: #dfe8ec5c;
 
 .job_tasks ul li:before {
     content: "•";
-    color: #2978a3;
+    color: #2d74b3;
     padding-right:7px;
 }
 
@@ -118,7 +124,7 @@ background-color: #dfe8ec5c;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #7aa2b8;
 }
 
@@ -133,7 +139,7 @@ background-color: #dfe8ec5c;
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #2e566b;
+    color: #266080;
 }
 
 .card_row {
@@ -152,12 +158,11 @@ background-color: #dfe8ec5c;
     font-family: 'Sarabun', sans-serif;
     font-weight: bold;
     margin-bottom: 0;
-    color: #333 !important;
+    /* color: #333 !important; */
 }
 
 .card_image {
     border-radius: 5px;
-    background-color: grey;
     width: 40px;
     height: 50px;
     margin-bottom: 0.5rem;
@@ -167,22 +172,26 @@ background-color: #dfe8ec5c;
     border-radius: 5px;
     margin-bottom: 0.5rem;
     height: 50px;
-    color: #2978a3;
+    color: #2d74b3;
 }
 
-.icon_color {
-    color: #2978a3;
+.blue_accent {
+    color: #2d74b3;
 }
 
 #contact_submit_btn {
     color: #fff;
-    background-color: #2978a3;
-    border-color: #2978a3;
+    background-color: #2d74b3;
+    border-color: #2d74b3;
+}
+
+.form-control::placeholder {
+    color: #526b7a;
 }
 
 /* manually color black svg images (C++ logo) */
 .filter-icon-color {
-    filter: invert(42%) sepia(20%) saturate(1660%) hue-rotate(157deg) brightness(92%) contrast(86%);
+    filter: invert(39%) sepia(100%) saturate(408%) hue-rotate(166deg) brightness(86%) contrast(88%);
 }
 
 .font_slab {
