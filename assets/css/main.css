@@ -34,7 +34,7 @@ p {
 }
 
 #introduction_section {
-    background-image: url("../img/banner_photo_1900.jpg");
+    background-image: url("../img/banner_photo_1900_v2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 900px; /*to fully display background image*/
@@ -64,7 +64,7 @@ p {
 }
 
 #mission_section {
-    background-image: url("../img/engineering_lab_overlay_shaped.jpg");
+    background-image: url("../img/engineering_lab_overlay_shaped_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -83,7 +83,7 @@ p {
 }
 
 #skills_section {
-    background-image: url("../img/code_overlay_shaped.jpg");
+    background-image: url("../img/Tools_overlay_shaped_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -120,7 +120,9 @@ p {
 }
 
 #contact_container {
-    background-color: #143344;
+    /* background-color: #143344; */
+    border: 1px solid #c5cbce;
+    background-color: #f3f7f8;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -130,12 +132,12 @@ p {
     0 100px 80px rgba(0, 0, 0, 0.12)
   ;
   /* border-radius: 5px; */
-  color: #f0f4f6;
-  border: solid 1px #5c8397;
+  /* color: #f0f4f6; */
+  /* border: solid 1px #5c8397; */
 }
 
 #contact_container .invalid-feedback {
-    color: #fffd6e;
+    /* color: #fffd6e; */
 }
 
 #skills_section .sub_heading {
@@ -173,7 +175,7 @@ p {
 hr.custom_hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, #143344, rgba(130,186,225, 0.75), #143344);
+    background-image: linear-gradient(to right, #f3f7f8, rgba(17, 55, 82, 0.75), #f3f7f8);
 }
 
 .job_tasks {
@@ -193,7 +195,7 @@ background-color: #f3f7f8;
 }
 
 .job_tasks ul li {
-    margin-top: 0.5em;
+    margin-top: 1em;
     text-indent: -0.8em;
 }
 
