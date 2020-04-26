@@ -26,7 +26,7 @@ p {
 #greeting_container {}
 
 #introduction_section {
-    background-image: url("../img/banner_photo_1900_v2.jpg");
+    background-image: url("../img/banner_photo_1900.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,9 +93,11 @@ p {
 
 #experience_section .employer_logo {
     background-color: white;
-    padding: 20px;
     border: 1px solid #c5cbce;
-    max-width: 450px;
+    padding: 20px;
+    max-width: 500px;
+    width:100%;
+    margin-top: 5px;
 }
 
 #contact_section p {
@@ -121,6 +123,7 @@ hr.custom_hr {
     padding: 14px 16px 16px 16px;
     border: 1px solid #c5cbce;
     background-color: #f3f7f8;
+    margin-bottom: 3em;
 }
 
 .job_tasks ul {
@@ -240,24 +243,33 @@ hr.custom_hr {
 }
 
 #northrop_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    background-image: url("../img/ng_office.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #omni_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    background-image: url("../img/omni_office.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #ucr_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    background-image: url("../img/ucr_campus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* manually color black svg images (C++ logo) */
