@@ -35,6 +35,13 @@ p {
     font-size: 40px;
 }
 
+@media (max-width: 991px) {
+    #introduction_section {
+      background-image: url("../img/banner_photo_1000.jpg");
+      
+    }
+  }
+
 .back_color {
     background-color: #143344;
 }
@@ -218,6 +225,19 @@ hr.custom_hr {
     height: 50px;
     color: #2d74b3;
 }
+
+.card_icon img{
+    height: 55px;
+}
+
+@media (max-width: 991px) {
+    .card_icon {
+      text-align: center;
+    }
+    .card_heading {
+      text-align: center;
+    }
+  }
 
 .blue_accent {
     color: #2d74b3;

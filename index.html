@@ -28,7 +28,8 @@
   <section id="introduction_section" class="main_section">
     <div class="container d-flex h-100">
       <div class="row align-self-center">
-        <div id="greeting_container" class="col-7">
+        <div id="greeting_container" class="col-md-12 col-lg-7 text-center">
+          <img src="assets/img/banner_icon.png" class="d-lg-none mb-5">
           <p id="main_greeting" class="font-weight-bold">
             <span class="font-size-80">Nicholas Gingerella</span>
           </p>
@@ -44,7 +45,7 @@
   <section id="about_section" class="main_section">
     <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-md-12 col-lg-8">
           <h1 class="section_heading">Hi, I'm Nick</h1>
           <p>
             A software engineer currently living and working in my hometown of Riverside, California.
@@ -142,7 +143,7 @@
     <div class="container py-5">
       <div id="skills_container">
         <div class="row">
-          <div class="col-8">
+          <div class="col-12 col-md-8">
             <p class="heading_accent">My Tools</p>
             <h1 class="section_heading">Skills</h1>
             <p>I’m always on the hunt for new skills for my problem solving toolbox. I employ whatever languages and
@@ -152,8 +153,10 @@
         </div>
         <section class="sub_section">
           <div class="row card_row">
-            <div class="col-4">
-              <img class="card_icon filter-icon-color " src="assets/img/cplupluslogo.svg">
+            <div class="col-12 col-md-4">
+              <div class="card_icon">
+                <img class="filter-icon-color" src="assets/img/cplupluslogo.svg">
+              </div>
               <p class="card_heading font-size-20">C and C++</p>
               <p class="light_text">
                 I use C and C++ for most of my system programming projects. I have experience building client server
@@ -161,7 +164,7 @@
                 IO, and more.
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 mt-5 mt-md-0">
               <div class="card_icon"><i class="fab fa-python fa-3x"></i></div>
               <p class="card_heading  font-size-20">Python</p>
               <p class="light_text">
@@ -169,11 +172,11 @@
                 used Python for embedded development projects on Raspberry-Pi, and Web Development projects using Flask and Django.
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 mt-5 mt-md-0">
               <div class="card_icon"><i class="fas fa-laptop-code fa-3x"></i></div>
-              <p class="card_heading font-size-20">HTML, CSS, and Javascript</p>
+              <p class="card_heading font-size-20">Web Development</p>
               <p class="light_text">
-                The staples of web development, I use these for visually creative projects. I have experience working
+                I use HTML,CSS, and Javascript for website and web application projects. I have experience working
                 with the Bootstrap CSS framework and the JQuery javascript framework for creating websites and web applications.
               </p>
             </div>
@@ -181,7 +184,7 @@
         </section>
         <section class="sub_section">
           <div class="row card_row">
-            <div class="col-4">
+            <div class="col-12 col-md-4">
               <div class="my_card">
                 <div class="card_icon"><i class="fas fa-users fa-3x"></i></div>
                 <p class="card_heading font-size-20">Agile Development</p>
@@ -192,7 +195,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 mt-5 mt-md-0">
               <div class="card_icon"><i class="fas fa-pencil-ruler fa-3x"></i></div>
               <p class="card_heading  font-size-20">Engineering Process</p>
               <p class="light_text">
@@ -200,9 +203,9 @@
                 not only helps reduce new bugs and regression, but also helps produce quality software design and test documentation.
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 mt-5 mt-md-0">
               <div class="card_icon"><i class="fas fa-hands-helping fa-3x"></i></div>
-              <p class="card_heading font-size-20">Team Building & Collaboration</p>
+              <p class="card_heading font-size-20">Team Building & Leadership</p>
               <p class="light_text">
                 I make it a priority to help create a positive environment for everyone on the team. We're in this together, and
                 teams that feel comfortable and respect one another are better able to collaborate more effectively, and produce
@@ -218,7 +221,7 @@
   <section id="experience_section" class="main_section">
     <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-12 col-md-8">
           <p class="heading_accent">My Journey</p>
           <h1 class="section_heading">Experience</h1>
           <p>
@@ -229,10 +232,10 @@
       </div>
       <section class="sub_section">
         <div class="row">
-          <div id="northrop_img" class="col-6">
-            <img src="assets/img/northrop_logo.png" class="employer_logo img-fluid mx-auto d-block">
+          <div id="northrop_img" class="col-sm-12 col-md-6">
+            <img src="assets/img/northrop_logo.png" class="employer_logo img-fluid mx-auto d-none d-md-block">
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-md-6">
             <h2 class="header_font font-weight-bold">Northrop Grumman</h2>
             <p>
               Software Engineer
@@ -259,7 +262,7 @@
                 </li>
               </ul>
             </div>
-            <div>
+            <div class="d-none d-lg-block">
               <p>
                 I’ve been creating and maintaining software for communication systems used in both commercial and
                 government sectors.
@@ -278,7 +281,7 @@
       </section>
       <section class="sub_section">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-12 col-md-6">
             <h2 class="header_font font-weight-bold">University of California Riverside</h2>
             <p>
               Python Programming Teaching Assistant
@@ -307,7 +310,7 @@
                 </li>
               </ul>
             </div>
-            <div>
+            <div class="d-none d-lg-block">
               <p>
                 During my time as a student at the University of California Riverside, I took on a position as an
                 assistant instructor for Python programming class for 9th grade students at a local middle school
@@ -323,17 +326,17 @@
               </p>
             </div>
           </div>
-          <div id="ucr_img" class="col-6 text-center">
-            <img src="assets/img/ucr_logo.png" class="employer_logo img-fluid mx-auto d-block">
+          <div id="ucr_img" class="col-6 d-none d-md-block text-center">
+            <img src="assets/img/ucr_logo.png" class="employer_logo img-fluid mx-auto">
           </div>
         </div>
       </section>
       <section class="sub_section">
         <div class="row">
-          <div id="omni_img" class="col-6 text-center">
-            <img src="assets/img/omniplatform_logo.png" class="employer_logo img-fluid mx-auto d-block">
+          <div id="omni_img" class="col-6 text-center d-none d-md-block">
+            <img src="assets/img/omniplatform_logo.png" class="employer_logo img-fluid mx-auto">
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <h2 class="header_font font-weight-bold">Omniplatform</h2>
             <p>
               Full-Stack Developer
@@ -351,7 +354,7 @@
                 <li>Work with project management to clearly define customer feature requests and plan implementation schedule</li>
               </ul>
             </div>
-            <div>
+            <div class="d-sm-none d-lg-block">
               <p>
                 The first job I took on during my days in community college was with a small local startup that was run
                 by one of my professors past students. It was here I got my first taste of working in a team and delivering
@@ -379,12 +382,14 @@
         <div class="col">
           <h1 class="section_heading text-center">Let's Get In Touch!</h1>
           <hr class="custom_hr">
-          <p class="text-center mt-4">
-            Looking for a software engineer who values his craft and can help you build great things?
-            <br>
-            Feel free to drop me an email at <span
-              class="font-weight-bold header_font font-size-20">nicholas.gingerella@gmail.com</span>, or
-            simply fill out the form below.
+          <p class="text-center mt-4 mb-0">
+            Looking for a software engineer who values their craft?
+          </p>
+          <p class="text-center mt-0">
+            Just drop me an email, or simply fill out the form below. 
+          </p>
+          <p class="header_font font-weight-bold font-size-20 text-center mt-0">
+            EMAIL: <span class="blue_accent">nicholas.gingerella@gmail.com</span>
           </p>
         </div>
       </div>
