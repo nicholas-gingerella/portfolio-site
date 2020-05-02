@@ -230,7 +230,7 @@ hr.custom_hr {
     height: 55px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .card_icon {
       text-align: center;
     }
