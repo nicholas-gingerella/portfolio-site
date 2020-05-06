@@ -79,10 +79,6 @@ p {
     margin-bottom: 0;
     padding-top: 200px;
     padding-bottom: 110px;
-    background-image: url("../img/contact_overlay.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #contact_section .section_heading {}
@@ -90,6 +86,7 @@ p {
 #contact_container {
     border: 1px solid #c5cbce;
     background-color: #f3f7f8;
+    max-width: 800px;
 }
 
 #contact_container .invalid-feedback {}
@@ -105,6 +102,10 @@ p {
     max-width: 500px;
     width:100%;
     margin-top: 5px;
+}
+
+#experience_section .sub_section {
+    margin-top: 120px;
 }
 
 #contact_section p {
@@ -237,7 +238,58 @@ hr.custom_hr {
     .card_heading {
       text-align: center;
     }
+
+    #introduction_section #greeting_container h1 {
+        font-size: 60px;
+    }
+    #introduction_section #greeting_container h2 {
+        font-size: 30px;
+    }
+    .section_heading {
+        font-size: 3em;
+    }
+    #contact_section #contact_email {
+        font-size: 0.75em;
+    }
+
+    #contact_section {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #contact_container {
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 100px !important;
+        padding-top: 100px !important;
+        border: 0;
+        border-top: 1px solid #c5cbce;
+        background-color: #143344;
+        color: #f0f4f6;
+    }
+
+    #experience_section {
+        margin-bottom: 0;
+    }
+
+    #contact_container .section_heading{
+        color: #83caf0;
+    }
+
+    #contact_container #contact_email span{
+        color: #83caf0;
+    }
+    
   }
+
+  @media (min-width: 992px) {
+        #contact_section {
+        background-image: url("../img/contact_overlay.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    }
 
 .blue_accent {
     color: #2d74b3;
